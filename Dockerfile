@@ -10,7 +10,7 @@ RUN apt-get update &&\
         libpng-dev \
         libopenblas-dev -y && \
     pip3 install -r /requirements.txt
-
+# ERROR: fontconfig-dev-2.12.1-r0: could not connect to server (check repositories file)
 
 # FROM python:3.6.4-alpine3.7
 # WORKDIR /assignment-1
