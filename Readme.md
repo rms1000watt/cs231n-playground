@@ -13,5 +13,6 @@ Here is the course website: http://cs231n.github.io/
 ## Build
 
 ```bash
-docker build --no-cache --compress --force-rm -t cs231n/python:$(date +'%Y%m%d%H%M%S') .
+docker build --no-cache --compress --force-rm -t cs231n/python:latest .
+docker tag cs231n/python:latest cs231n/python:$(date +'%Y%m%d%H%M%S')
 ```
