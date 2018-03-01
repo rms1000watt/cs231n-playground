@@ -1,2 +1,5 @@
 .DS_Store
 .env
+cifar-10-python.tar.gz
+.ipynb_checkpoints
+__pycache__

@@ -1,12 +1,3 @@
-FROM ubuntu:16.04
+FROM python:3.6.4-slim-stretch
 COPY requirements.txt /requirements.txt
-RUN apt-get update &&\
-    apt-get install \
-        python3-dev \
-        python3-numpy \
-        python3-scipy \
-        python3-pip \
-        libfreetype6-dev \
-        libpng-dev \
-        libopenblas-dev -y && \
-    pip3 install -r /requirements.txt
+RUN pip3 install -r /requirements.txt
