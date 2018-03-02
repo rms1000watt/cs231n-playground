@@ -44,3 +44,9 @@ docker run -it --rm -v $(pwd):/cs231n -w /cs231n/assignment-1 -p 8888:8888 rms10
 ```
 
 Then open http://127.0.0.1:8888 in your browser
+
+If you just want a dockerized Python environment for local work, run:
+
+```bash
+docker run -it --rm -v $(pwd):/cs231n -w /cs231n rms1000watt/cs231n-python bash
+```
