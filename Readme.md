@@ -48,5 +48,6 @@ Then open http://127.0.0.1:8888 in your browser
 If you just want a dockerized Python environment for local work, run:
 
 ```bash
+docker run -ti --rm -p 8888:8888 jupyter/minimal-notebook jupyter notebook --ip=0.0.0.0 --allow-root --NotebookApp.token=''
 docker run -it --rm -v $(pwd):/cs231n -w /cs231n rms1000watt/cs231n-python bash
 ```

@@ -3,3 +3,6 @@ Dockerfile
 .gitignore
 Readme.md
 assignment-1
+cifar-10-python.tar.gz
+cifar-10-batches-py
+download.sh
